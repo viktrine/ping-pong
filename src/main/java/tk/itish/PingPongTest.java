@@ -10,7 +10,13 @@ public class PingPongTest {
 
         // loop through given numbers
         for(int i = 1; i <= countUpTo; i++){
-            results.add(i);
+            if(i % 3 == 0){
+                results.add("ping");
+            } else if (i % 5 == 0) {
+                results.add("pong");
+            } else{
+                results.add(i);
+            }
         }
         return results;
     }
