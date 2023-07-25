@@ -18,4 +18,8 @@ public class Rectangle {
     public int getLength() {
         return this.length;
     }
+
+    public int getWidth() {
+        return this.width;
+    }
 }
