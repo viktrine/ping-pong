@@ -7,7 +7,11 @@ import java.util.List;
 public class PingPongTest {
     public List<Object> runPingPong(int countUpTo) {
         List<Object> results = new ArrayList<>();
-        results.add(1);
+
+        // loop through given numbers
+        for(int i = 1; i <= countUpTo; i++){
+            results.add(i);
+        }
         return results;
     }
 }

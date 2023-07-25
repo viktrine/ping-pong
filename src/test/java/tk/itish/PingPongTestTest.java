@@ -19,4 +19,14 @@ class PingPongTestTest {
         expectedOutPut.add(1);
         assertEquals(expectedOutPut, pingPongTest.runPingPong(1));
     }
+
+    // test the first n numbers
+    @Test
+    void runPingPong_countUptoTwo_ArrayList(){
+        PingPongTest pingPongTest = new PingPongTest();
+        List<Object> expectedOutPut = new ArrayList<>();
+        expectedOutPut.add(1);
+        expectedOutPut.add(2);
+        assertEquals(expectedOutPut, pingPongTest.runPingPong(2));
+    }
 }
