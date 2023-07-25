@@ -32,7 +32,7 @@ class PingPongTestTest {
 
     // test multiples of 3
     @Test
-    void runPingPong_replace3_ArrayList(){
+    void runPingPong_replaceThree_ArrayList(){
         PingPongTest pingPongTest = new PingPongTest();
         List<Object> expectedOutPut = new ArrayList<>();
         expectedOutPut.add(1);
@@ -43,7 +43,7 @@ class PingPongTestTest {
 
     // test multiples of 3
     @Test
-    void runPingPong_replace5_ArrayList(){
+    void runPingPong_replaceFive_ArrayList(){
         PingPongTest pingPongTest = new PingPongTest();
         List<Object> expectedOutPut = new ArrayList<>();
         expectedOutPut.add(1);
@@ -53,5 +53,29 @@ class PingPongTestTest {
         expectedOutPut.add("pong");
         expectedOutPut.add("ping");
         assertEquals(expectedOutPut, pingPongTest.runPingPong(6));
+    }
+
+    // test multiples of 3 and 5
+    @Test
+    void runPingPong_replaceThreeAndFive_ArrayList(){
+        PingPongTest pingPongTest = new PingPongTest();
+        List<Object> expectedOutPut = new ArrayList<>();
+        expectedOutPut.add(1);
+        expectedOutPut.add(2);
+        expectedOutPut.add("ping");
+        expectedOutPut.add(4);
+        expectedOutPut.add("pong");
+        expectedOutPut.add("ping");
+        expectedOutPut.add(7);
+        expectedOutPut.add(8);
+        expectedOutPut.add("ping");
+        expectedOutPut.add("pong");
+        expectedOutPut.add(11);
+        expectedOutPut.add("ping");
+        expectedOutPut.add(13);
+        expectedOutPut.add(14);
+        expectedOutPut.add("pingpong");
+        expectedOutPut.add(16);
+        assertEquals(expectedOutPut, pingPongTest.runPingPong(16));
     }
 }
