@@ -16,6 +16,6 @@ public class DateTest {
         System.out.println("Formatted Date: " + simpleDateFormat.format(date));
 
         SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("dd/MM/YYYY");
-        System.out.println("Formatted Date: " + simpleDateFormat.format(date));
+        System.out.println("Formatted Date: " + simpleDateFormat2.format(date));
     }
 }
