@@ -21,5 +21,8 @@ public class DateTest {
 
         SimpleDateFormat simpleDateFormat3 = new SimpleDateFormat("dd-MM-yyyy");
         System.out.println("Formatted Date: " + simpleDateFormat3.format(date));
+
+        SimpleDateFormat simpleDateFormat4 = new SimpleDateFormat("dd-MM-yyyy");
+        System.out.println("Formatted Date: " + simpleDateFormat4.format(date));
     }
 }
