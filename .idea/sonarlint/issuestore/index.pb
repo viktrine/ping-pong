@@ -7,8 +7,6 @@ U
 %src/main/java/tk/itish/Rectangle.java,1/3/13156ef274a31dc87d1ec74e51dfa8e11edf8163
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-X
-(src/test/java/tk/itish/LeapYearTest.java,2/5/256ae72ad2b04751c5b8980dee47e35f1d3372c9
 \
 ,src/test/java/tk/itish/PingPongTestTest.java,2/b/2bf142ff84e5a015ae90dfcb26fc08645bcda1ec
 X

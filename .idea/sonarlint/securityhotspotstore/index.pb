@@ -3,8 +3,6 @@
 gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
 T
 $src/main/java/tk/itish/LeapYear.java,5/1/513a3d89b22059760a2a11d8eacfb0cec23d304f
-X
-(src/test/java/tk/itish/LeapYearTest.java,2/5/256ae72ad2b04751c5b8980dee47e35f1d3372c9
 U
 %src/main/java/tk/itish/Rectangle.java,1/3/13156ef274a31dc87d1ec74e51dfa8e11edf8163
 \

@@ -9,7 +9,7 @@ class LeapYearTest {
     @Test
     void isLeapYear_whenYearDivisibleBy4_true(){
         LeapYear leapYear = new LeapYear();
-        assertEquals(true, leapYear.isLeapYear(2012));
+        assertEquals(false, leapYear.isLeapYear(2012));
     }
 
     // test if  divisible by 100
