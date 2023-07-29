@@ -12,6 +12,10 @@ public class DateTest {
         System.out.println("unformatted Date: "+date);
 
         System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("y/M/dd");
         final String printOutString = "Formatted Date: " + simpleDateFormat.format(date);
         System.out.println(printOutString);
